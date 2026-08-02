@@ -1,4 +1,16 @@
 aid: wildfire
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wildfire.png
 name: Wildfire
 description: Wildfire is a company surfaced as a portfolio company of 500-global, qed-investors and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -13,7 +25,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment-note: 'Declared domain wildfireapp.com is defunct: it HTTP-redirects to
+  marketingplatform.google.com and its DNS resolves to Google infrastructure (Wildfire
+  Interactive was acquired by Google in 2012 and folded into Google Marketing Platform).
+  No reachable API/developer surface exists for this domain. A live namesake fintech,
+  Wildfire Systems (wildfire-corp.com), exposes only enterprise white-label integrations
+  with no public developer portal or OpenAPI, and its association with these VC backers
+  could not be verified. No artifacts enriched; no fabrication.'
 tags:
 - Company
 apis: []
@@ -25,3 +44,8 @@ maintainers:
 common:
 - type: Website
   url: https://wildfireapp.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
